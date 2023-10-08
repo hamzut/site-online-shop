@@ -57,7 +57,6 @@ body{
 }
 .card1 {
   margin-left: 16.5%;
-
 }
 
 .card2 {
@@ -157,9 +156,6 @@ body{
   border-radius: 56px;
   margin-left: 2%;
 }
-.img-manu-card-start {
-
-}
 .text23{
   padding-top: 5%;
   padding-left: 5%;
@@ -179,4 +175,25 @@ padding-bottom: 2%;
 padding-left: 2%;
 padding-right: 2%;
 border-radius: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .text24{
+    color: #ff0000;
+    width: auto;
+  }
+}
+@media screen and (max-width: 998px) {
+  
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 576px) {
+  
+}
+@media screen and (max-width: 576px) and (max-height: 300px) {
+  .text24{
+    color: #ff0000;
+    width: auto;
+  }
 }
