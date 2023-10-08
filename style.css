@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* Стили для кнопки выбора цвета */
+.color-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.blue {
+  background-color: rgb(0, 153, 255);
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Активный класс для кнопки выбора цвета */
+.active-border {
+  box-shadow: 0px 0px 0px 3px #fe9b07;
+  /* border: 5px solid #fe9b07; */
+}
+.buy{
+  background-color: rgb(44, 44, 44);
+  border: #000000;
+  width: 100%;
+}
+.price {
+  font-weight: bolder;
+}
+.container2 {
+  padding-left: 23%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.container3 {
+  padding-left: 20%;
+}
+body{
+  background-color: #F1EFE4;
+}
+.tov{
+  background-color: rgb(44, 44, 44);
+  border: #000000;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.card1 {
+  margin-left: 16.5%;
+
+}
+
+.card2 {
+  margin-left: 2%;
+}
+.card3 {
+  margin-left: 2%;
+}
+.card4 {
+  margin-left: 3%;
+}
+.footer-text {
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+.cardfooter1{
+  margin-right: 17%;
+}
+.cardfooter2 {
+  margin-right: 17%;
+}
+.collapse {
+  color: #F1EFE4;
+}
+.text-body-emphasis {
+  margin: ;
+}
+
+.menu-card1 {
+}
+.menu-card2 {
+  margin-left: 5%;
+}
+.menu-card3 {
+  margin-left: 5%;
+}
+.menu-card4 {
+  margin-left: ;
+}
+.cardmenu {
+  background-color: aqua;
+  border-radius: 20px;
+  margin-left: 16.5%;
+}
+.cardmenuimg {
+  width: 18rem;
+  margin-left: 60rem;
+}
+.flex-item {
+  margin-top: 10px;
+    
+    background: #C8DDED;
+    
+    width: 1296px;
+    height: 550px;
+    top: 124px;
+    left: 72px;
+    border-radius: 56px;
+    
+}
+
+
+.text21{
+  padding-top: 11%;
+  padding-right: 20%;
+  position: absolute;
+  font-size: 170%;
+}
+
+.text22{
+  padding-top: 2%;
+  position: relative;
+  font-size: 500%;
+}
+
+.flex-item2 {
+  background:#C9C8ED;
+  
+  margin-top: 10px;
+    
+  justify-content: right;
+  width: 636px;
+  height: 368px;
+  top: 706px;
+  left: 64px;
+  border-radius: 56px;
+  
+}
+
+.flex-item3 {
+  margin-top: 10px;
+  background: #FFFCB6;
+  width: 636px;
+  height: 368px;
+  top: 706px;
+  left: 732px;
+  border-radius: 56px;
+  margin-left: 2%;
+}
+.img-manu-card-start {
+
+}
+.text23{
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 300%;
+}
+.text24{
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.text25{
+  font-size: 20px;
+  font-style: normal;
+margin-top: 5%;
+margin-left: 5%;
+padding-top: 1%;
+padding-bottom: 2%;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
