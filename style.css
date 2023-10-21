@@ -128,7 +128,7 @@ body{
 
 .text22{
   padding-top: 2%;
-  position: relative;
+  position: r
   font-size: 500%;
 }
 
@@ -176,10 +176,12 @@ padding-left: 2%;
 padding-right: 2%;
 border-radius: 10px;
 }
-@media screen and (min-width: 1200px) {
-  .text24{
-    color: #ff0000;
-    width: auto;
+@media screen and (max-width: 1200px) {
+  .text22{
+    font-size: 400%;
+  }
+  .text21{
+    padding-top: ;
   }
 }
 @media screen and (max-width: 998px) {
@@ -191,9 +193,11 @@ border-radius: 10px;
 @media screen and (max-width: 576px) {
   
 }
-@media screen and (max-width: 576px) and (max-height: 300px) {
-  .text24{
-    color: #ff0000;
-    width: auto;
+@media screen and (max-width: 576px) {
+  .text22{
+    font-size: 100%;
+  }
+  .text21{
+    padding-top: ;
   }
 }
