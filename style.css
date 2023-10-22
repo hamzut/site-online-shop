@@ -81,20 +81,12 @@ body{
 .collapse {
   color: #F1EFE4;
 }
-.text-body-emphasis {
-  margin: ;
-}
 
-.menu-card1 {
-}
 .menu-card2 {
   margin-left: 5%;
 }
 .menu-card3 {
   margin-left: 5%;
-}
-.menu-card4 {
-  margin-left: ;
 }
 .cardmenu {
   background-color: aqua;
@@ -123,13 +115,12 @@ body{
   padding-top: 11%;
   padding-right: 20%;
   position: absolute;
-  font-size: 170%;
+  font-size: 250%;
 }
 
 .text22{
   padding-top: 2%;
-  position: r
-  font-size: 500%;
+  font-size: 600%;
 }
 
 .flex-item2 {
@@ -176,28 +167,54 @@ padding-left: 2%;
 padding-right: 2%;
 border-radius: 10px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 998px) {
+  .start-menu{
+    margin-left: 16.5%;
+  }
+  .card1 {
+    margin-left: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 998px) {
+  .text21{
+    padding-top: 20%;
+    padding-right: 20%;
+    position: absolute;
+    font-size: 200%;
+  }
+  
   .text22{
+    padding-top: 4%;
     font-size: 400%;
   }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 585px) {
   .text21{
-    padding-top: ;
+    padding-top: 35%;
+    padding-right: 20%;
+    position: absolute;
+    font-size: 125%;
   }
-}
-@media screen and (max-width: 998px) {
   
-}
-@media screen and (max-width: 768px) {
-  
-}
-@media screen and (max-width: 576px) {
-  
-}
-@media screen and (max-width: 576px) {
   .text22{
-    font-size: 100%;
-  }
-  .text21{
-    padding-top: ;
+    padding-top: 4%;
+    font-size: 150%;
   }
 }
