@@ -174,7 +174,28 @@ border-radius: 10px;
   .card1 {
     margin-left: 0;
   }
-
+  .text23{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 175%;
+  }
+  .text24{
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  .flex-item2 {
+    background:#C9C8ED;
+    
+    margin-top: 10px;
+      
+    justify-content: right;
+    width: 636px;
+    height: 300px;
+    top: 706px;
+    left: 64px;
+    border-radius: 56px;
+    
+  }
 }
 
 

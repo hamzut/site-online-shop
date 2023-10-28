@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <audio src="mp3/music.mp3" ></audio>
   <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="white">
     <div class="bg-white p-4">
       <a class="text-body-emphasis silki menu-card1 h4">Ноутбуки</a>
@@ -132,7 +133,7 @@
                   <h4 class="item-title fs-6">Apple iPhone 13 Pro Max</h4>
                   <img src="./images/iphone.png" class="img-fluid py-2" alt="">
                   <p class="price">Цена 80 000 ₽</p>
-                  <button data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</button>
+                  <a href="iPhone_13_pro_max.html" data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</a>
                 </div>
                 <!-- // Описание карточки -->
               </div>
@@ -171,7 +172,7 @@
                   <h4 class="item-title fs-6">Samsung</h4>
                   <img src="./images/samsung-phone.png" class="img-fluid py-2" alt="">
                   <p class="price">Цена 104 074 ₽</p>
-                  <button data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</button>
+                  <a href="samsung.html" data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</a>
                 </div>
                 <!-- // Описание карточки -->
               </div>
@@ -209,7 +210,7 @@
                           <h4 class="item-title fs-6">Смартфон Vivo T1 6</h4>
                           <img src="./images/vivo-phone.png" class="img-fluid py-2" alt="">
                           <p class="price">Цена 15 242 ₽</p>
-                          <button data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</button>
+                          <a href="realmi-c25s.html" data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</a>
                         </div>
                         <!-- // Описание карточки -->
                       </div>
@@ -238,42 +239,43 @@
                 <!-- // Третья картчока -->
 
                         <!-- Четвёртая карточка -->
-        <div class="col-md-12 col-lg-6">
-          <!-- Карточка с Самсунгом -->
-          <div class="card mb-3 samsung">
-            <div class="row">
-              <div class="col-sm-6 col-md-6 col-lg-7 col-xl-6">
-                <!-- Описание карточки -->
-                <div class="card-body">
-                  <h4 class="item-title fs-6">realmi-c25 s</h4>
-                  <img src="./images/phone-1.png" class="img-fluid py-2" alt="">
-                  <p class="price">Цена 12 490 ₽</p>
-                  <button data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</button>
-                </div>
-                <!-- // Описание карточки -->
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-5">
-                <!-- Характеристики карточки -->
-                <div class="card-body ">
-                  <h5 class="card-title fs-6 mb-2">Объем памяти:</h5>
-                  <div class="size-container">
-                    <button data-size="medium" class="btn btn-sm btn-outline-dark active">64 ГБ</button>
-                    <button data-size="large" class="btn btn-sm btn-outline-dark">128 ГБ</button>
-                  </div>
-
-                  <h5 class="card-title fs-6 mt-3 mb-2">Цвет: Чёрный</h5>
-                  <div class="colors-container">
-                    <button class="color-btn black active-border"></button>
-                    <button class="color-btn green"></button>
-                    <button class="color-btn blue"></button>
-                  </div>
-                </div>
-                <!-- // Характеристики карточки -->
-              </div>
-            </div>
-          </div>
-          <!-- // Карточка с Самсунгом -->
-        </div>
+                        <div class="col-md-12 col-lg-6">
+                          <!-- Карточка с Айофоном -->
+                          <div class="card mb-3 iPhone">
+                            <div class="row">
+                              <div class="col-sm-6 col-md-6 col-lg-7 col-xl-6">
+                                <!-- Описание карточки -->
+                                <div class="card-body">
+                                  <h4 class="item-title fs-6">Смартфон realme C25S 4</h4>
+                                  <img src="./images/phone-1.png" class="img-fluid py-2" alt="">
+                                  <p class="price">Цена 12 490 ₽</p>
+                                  <a href="realmi-c25s.html" data-size="medium" class="buy btn btn-sm btn-outline-dark active">купить</a>
+                                </div>
+                                <!-- // Описание карточки -->
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-5">
+                                <!-- Характеристики карточки -->
+                                <div class="card-body ">
+                                  <h5 class="card-title fs-6 mb-2">Объем памяти:</h5>
+                                  <div class="size-container">
+                                    <button data-size="medium" class="btn btn-sm btn-outline-dark active">128 ГБ</button>
+                                    <button data-size="large" class="btn btn-sm btn-outline-dark">256 ГБ</button>
+                                  </div>
+                
+                                  <h5 class="card-title fs-6 mt-3 mb-2">Цвет: Чёрный</h5>
+                                  <div class="colors-container">
+                                    <button class="color-btn blue active-border"></button>
+                                    <button class="color-btn green"></button>
+                                    <button class="color-btn black"></button>
+                                  </div>
+                                </div>
+                                <!-- // Характеристики карточки -->
+                              </div>
+                            </div>
+                          </div>
+                          <!-- // Карточка с Айофоном -->
+                        </div>
+                        <!-- // Первая картчока -->
         <!-- // Четвёртая картчока -->
 
       </div> <!-- // Ряд карточек -->
@@ -304,10 +306,12 @@
         </div>
       </div>
       </div>
+      
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
   <script src="./main.js"></script>
+
 
 </body>
 

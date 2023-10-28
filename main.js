@@ -1,3 +1,6 @@
+let user = prompt("как твоё имя?")
+alert("Привет! " + user)
+
 const iPhone = document.querySelector(".iPhone");
 const samsung = document.querySelector(".samsung");
 
@@ -11,7 +14,7 @@ iPhone.addEventListener("click", function (event){
         clicktarget.classList.add("active-border");
         activeButtoncolor.classList.remove("active-border");
     }
-    If (clickTarget.classList.contains("btn") && !clickTarget.ClassList.cantains("active")){
+    if (clickTarget.classList.contains("btn") && !clickTarget.ClassList.cantains("active")){
         clickTarget.classList.add("active");
         activeButton.classList.remove("active");
     }
